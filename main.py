@@ -38,7 +38,6 @@ def main():
             pool.apply_async(fm.fix_target_machine, args=(item[1], item[2]))
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
 
